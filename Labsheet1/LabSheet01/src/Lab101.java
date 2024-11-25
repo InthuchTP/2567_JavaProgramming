@@ -17,18 +17,23 @@ public class Lab101 {
 		float productPrice = scan.nextFloat();
 		
 		System.out.print("--------------------------------------");
-		
 		System.out.println();
 		float totalPriceProduct = productUnit * productPrice;
 		System.out.println("Total Price is "+frm.format(totalPriceProduct)+" baht.");
 		System.out.print("--------------------------------------");
+		System.out.println();
 		
+		System.out.print("How many discount     : ");
+		float discount = scan.nextFloat();
+		discount = discount/100;
+		float discountFrom = totalPriceProduct * discount;
+		System.out.print("Discount from"+discount+"%       "+frm.format(discountFrom)+" baht.");
+		System.out.println();
+		float amount = totalPriceProduct-discountFrom;
+		System.out.print("Amount to be paid       "+frm.format(amount)+" baht.");
+
 		
-		
-		//vat
-		float totalVat = totalPriceProduct + (totalPriceProduct *7/100);
-		System.out.println("Add VAT 7% is  "+frm.format(totalVat)+" baht.");
-		
+
 	}
 }
 		
