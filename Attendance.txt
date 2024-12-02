@@ -1,4 +1,4 @@
 StudentID:2413110996
 StudentName:Inthuch Thipwet
-Date:11/25/2024
-Topic:Display, Variable and Input
+Date:12/02/2024
+Topic:Control Statements (Decision Statement)

@@ -12,12 +12,13 @@ public class Lab102 {
 		int day = minutes / 1440;
 		
 		int realDay = day % 365;
-		System.out.println(realDay);
+		//System.out.println(realDay);
 		
 		int year = day / 365;
-		System.out.println(year);
+		//System.out.println(year);
 		
 		
+		System.out.print(minutes+" minutes is aproximately "+year+" years and "+realDay+" days"	);
 
 		
 
