@@ -1,4 +1,4 @@
 StudentID:2413110996
 StudentName:Inthuch Thipwet
 Date:12/16/2024
-Topic:Method
+Topic:Array and Array Method
