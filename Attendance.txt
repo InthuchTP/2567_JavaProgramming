@@ -1,4 +1,5 @@
 StudentID:2413110996
 StudentName:Inthuch Thipwet
-Date:1/13/2025
-Topic:Class and Object
+Date:1/20/2025
+Topic:- Encapsulation Concept
+      - Array Object
